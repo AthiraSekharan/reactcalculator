@@ -1,6 +1,6 @@
 #calculator {
     background-color: #fff;
-    border: 5px solid;
+    border: 20px solid;
     border-radius: 5px;
     border-color: #e6961f ;
     padding: 20px;
@@ -55,5 +55,8 @@ button:hover{
 
 
 @media(max-width:567px) {
-    
+    #calculator {
+        border: 0px;
+    }
+
 }
